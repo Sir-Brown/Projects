@@ -1,0 +1,17 @@
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\bin\Debug\Image Gallery Application.exe.config
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\bin\Debug\Image Gallery Application.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\bin\Debug\Image Gallery Application.pdb
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image Gallery Application.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image_Gallery_Application.ImageInfo.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image_Gallery_Application.MainForm.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image_Gallery_Application.Properties.Resources.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image_Gallery_Application.TagForm.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image Gallery Application.csproj.GenerateResource.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image Gallery Application.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image Gallery Application.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image Gallery Application.pdb
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\bin\Debug\ImageDetails.mdf
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\bin\Debug\ImageDetails_log.ldf
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\obj\Debug\Image_Gallery_Application.ImageData.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\bin\Debug\PhotoDatabase.mdf
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Group Project\Image Gallery Application\bin\Debug\PhotoDatabase_log.ldf
