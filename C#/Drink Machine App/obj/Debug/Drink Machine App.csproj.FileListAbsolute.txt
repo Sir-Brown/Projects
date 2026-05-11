@@ -1,0 +1,10 @@
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\bin\Debug\Drink Machine App.exe.config
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\bin\Debug\Drink Machine App.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\bin\Debug\Drink Machine App.pdb
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\obj\Debug\Drink Machine App.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\obj\Debug\Drink_Machine_App.DrinkMachineApp.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\obj\Debug\Drink_Machine_App.Properties.Resources.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\obj\Debug\Drink Machine App.csproj.GenerateResource.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\obj\Debug\Drink Machine App.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\obj\Debug\Drink Machine App.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Drink Machine App\obj\Debug\Drink Machine App.pdb
