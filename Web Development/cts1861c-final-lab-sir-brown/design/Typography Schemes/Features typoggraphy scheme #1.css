@@ -1,0 +1,156 @@
+/*----------USES Complementary (auto) Color Scheme----------*/
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #FF8400;
+}
+
+/* Fonts */
+h1, h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+}
+
+body, p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.sidebar {
+    font-family: "Roboto Condensed" serif;
+    font-weight: 400;
+}
+
+.finePrint {
+    font-family: "Oswald", serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+p a, .getStarted {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #00CCFF;
+    text-decoration: none;
+}
+
+p a:hover, .getStarted:hover {
+    color: #007BFF;
+}
+
+nav a {
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+.smallLink {
+    font-family: "Eczar", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0.45rem 1.25rem;
+}
+
+.logo {
+    margin: -1.25rem;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.9rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    color: #FFA200;
+}
+
+/* Section: Hero */
+.hero {
+    background: linear-gradient(135deg, #007BFF, #00CCFF);
+    color: white;
+    text-align: center;
+    padding: 1.875rem 1.25rem;
+    max-width: 800px;
+    margin: 1.25rem auto;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.4);
+}
+
+.getStarted {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.9375rem;
+}
+
+.getStarted:hover {
+    background-color: #AA8039;
+}
+
+/* Section: Content */
+.content {
+    padding: 1.25rem 3rem;
+}
+
+/* Section: Highlight */
+.highlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1.25rem;
+    margin: 0 3rem;
+    background-color: #55A7FF;
+    padding: 1.875rem 2.25rem;
+    text-align: center;
+    color: #405F80;
+}
+
+.highlight ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 3.12rem;
+    color: #554B39;
+}
+
+/* Footer */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 0.9375rem;
+    margin-top: 1.25rem;
+}

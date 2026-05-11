@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <!-- Final Lab
+        D'Jaine Brown
+        04/06/2025 -->
+    
+    <head>
+        <meta charset = "UTF-8">
+        <title> Services | Apex Technologies </title>
+        <meta name = "description" content = "Services page for Apex Technologies.">
+        <meta name = "author" content = "D'Jaine Brown">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/responsiveStyles.css">
+        <script src="js/javascript.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <a href = "index.html" title = "Home Page" class = "logoLink">
+                    <img src = "assets/Logos/logoPNG.png" alt = "Apex Technology Logo" class = "logo">
+            </a>
+            
+            <div class = "header-text">
+                <h1>Apex Technology</h1>
+                <h5 class = "tagline">"Where your ideas come to life!"</h5>
+            </div>
+                
+            <nav class = "nav" id = "navigation">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+                <a href="index.html" title="Home Page">Home</a>
+                <a href="services.html" title="Services Page" class="active">Services</a>
+                <a href="portfolio.html" title="Portfolio Page">Portfolio</a>
+                <a href="prices.html" title="Prices Page">Prices</a>
+                <a href="about.html" title="About Page">About</a>
+                <a href="contact.html" title="Contact Page">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class = "hero">
+                <h2> Tailored Technology Solutions </h2>
+                <h3> We transform your vision into digital reality </h3>
+            </section>
+    
+            <section>
+                <details class = "service-details">
+                    <summary class = "service-summary">
+                        <span class = "service-icon">
+                            <i class="fa fa-code"></i>
+                        </span>
+
+                        <h3> Web Development </h3>
+                        <span class = "accordion-icon"></span>
+                    </summary>
+
+                    <div class = "service-information">
+                        <p> Custom websites and web applications built for performance and scalability. </p>
+                        <ul class = "service-features">
+                            <li> Responsive Design </li>
+                            <li> Custom Solutions </li>
+                            <li> CMS Integration </li>
+                            <li> API Development </li>
+                        </ul>
+                        <a href="portfolio.html" class="service-link"> View Web Projects </a>
+                    </div>
+                </details>
+            
+                <details class = "service-details">
+                    <summary class = "service-summary">
+                        <span class = "service-icon">
+                            <i class="fa fa-paint-brush"></i>
+                        </span>
+                        <h3> Graphic Design </h3>
+                        <span class = "accordion-icon"></span>
+                    </summary>
+
+                    <div class = "service-information">
+                        <p> Stunning visual identities that communicate your brand's essence. </p>
+                        <ul class = "service-features">
+                            <li>Logo and Branding</li>
+                            <li>Print Design</li>
+                            <li>Digital Graphics</li>
+                            <li>Marketing Materials</li>
+                        </ul>
+                        <a href="portfolio.html" class="service-link"> View Design Work </a>
+                    </div>
+                </details>
+            
+                <details class = "service-details">
+                    <summary class = "service-summary">
+                        <span class = "service-icon">
+                            <i class="fa fa-search"></i>
+                        </span>
+                        <h3> SEO Optimization </h3>
+                        <span class = "accordion-icon"></span>
+                    </summary>
+
+                    <div class = "service-information">
+                        <p> Increase your visibility and organic traffic with our proven strategies. </p>
+                        <ul class = "service-features">
+                            <li>Keyword Research</li>
+                            <li>On-Page Optimization</li>
+                            <li>Technical SEO</li>
+                            <li>Analytics Reporting</li>
+                        </ul>
+                        <a href="prices.html" class = "service-link"> See SEO Plans </a>
+                    </div>
+                </details>
+            
+                <details class = "service-details">
+                    <summary class = "service-summary">
+                        <span class = "service-icon">
+                            <i class="fa fa-server"></i>
+                        </span>
+                        <h3> Web Hosting </h3>
+                        <span class = "accordion-icon"></span>
+                    </summary>
+
+                    <div class = "service-information">
+                        <p> Reliable, secure, and high-performance hosting solutions. </p>
+                        <ul class = "service-features">
+                            <li>99.9% Uptime</li>
+                            <li>24/7 Monitoring</li>
+                            <li>SSL Certificates</li>
+                            <li>Automated Backups</li>
+                        </ul>
+                        <a href="prices.html" class = "service-link"> View Hosting Options </a>
+                    </div>
+                </details>
+            
+                <details class = "service-details">
+                    <summary class = "service-summary">
+                        <span class = "service-icon">
+                            <i class="fa fa-lightbulb-o"></i>
+                        </span>
+                        <h3> Tech Consulting </h3>
+                        <span class = "accordion-icon"></span>
+                    </summary>
+
+                    <div class = "service-information">
+                        <p> Strategic guidance for your digital transformation. </p>
+                        <ul class = "service-features">
+                            <li>IT Strategy</li>
+                            <li>Digital Roadmapping</li>
+                            <li>Technology Audits</li>
+                            <li>Implementation Planning</li>
+                        </ul>
+                        <a href = "contact.html" class = "service-link"> Schedule Consultation </a>
+                    </div>
+                </details>
+            </section>
+            
+            <section class = "process-section">
+                <h2> Our Proven Process </h2>
+
+                <div class = "process-steps">
+                    <div class = "process-step">
+                        <div class = "step-number"> 1 </div>
+                        <h3> Discovery </h3>
+                        <p> We learn about your business goals and requirements </p>
+                    </div>
+
+                    <div class = "process-step">
+                        <div class = "step-number"> 2 </div>
+                        <h3> Planning </h3>
+                        <p> Creating a detailed project roadmap </p>
+                    </div>
+
+                    <div class = "process-step">
+                        <div class = "step-number"> 3 </div>
+                        <h3> Design </h3>
+                        <p> Crafting the perfect user experience </p>
+                    </div>
+
+                    <div class = "process-step">
+                        <div class = "step-number"> 4 </div>
+                        <h3> Development </h3>
+                        <p> Building with clean, efficient code </p>
+                    </div>
+
+                    <div class = "process-step">
+                        <div class = "step-number"> 5 </div>
+                        <h3> Launch </h3>
+                        <p> Deploying and monitoring your solution </p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class = "services-cta">
+                <h2> Ready to Elevate Your Digital Presence? </h2>
+                <p> Let's discuss how we can help achieve your goals </p>
+
+                <div class = "cta-buttons">
+                    <a href = "contact.html" class = "cta-button"> Get Started Today </a>
+                    <a href = "tel:+19545551234" class = "cta-button outline">
+                        Call Now <i class="fa fa-phone"></i>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Apex Technologies.</p>
+            <p>
+                <a href = "about.html" target = "_blank"> About Us </a> | 
+                <a href = "services.html" target = "_blank"> Services </a> | 
+                <a href = "contact.html" target = "_blank"> Contact Us </a>
+            </p>
+
+            <div class = "socials">
+                <a href = "https://www.facebook.com" target = "_blank">
+                    <img src = "assets/Icons/Facebook.png" alt = "Facebook Logo" class = "socialLogo">
+                </a>
+                <a href = "https://x.com/?lang=en" target = "_blank">
+                    <img src = "assets/Icons/Twitter.png" alt = "Twitter Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.instagram.com" target = "_blank">
+                    <img src = "assets/Icons/Instagram.svg" alt = "Instagram Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.linkedin.com" target = "_blank">
+                    <img src = "assets/Icons/LinkedIn.png" alt = "LinkedIn Logo" class = "socialLogo">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

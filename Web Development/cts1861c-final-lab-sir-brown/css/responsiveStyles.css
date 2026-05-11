@@ -1,0 +1,239 @@
+/* DEVICE: SMARTPHONES (768px-)
+------------------------------------------*/
+@media screen and (max-width: 768px) {     /* Smartphone Layout For Portfolio and Prices Page */
+    .service-summary {
+        padding-bottom: 1rem;
+    }
+    
+    .service-information {
+        padding: 0 1rem 1rem;
+    }
+    
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .portfolio-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .portfolio-card {
+        height: 300px;
+    }
+    
+    .pricing-tiers {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-card.featured {
+        transform: scale(1);
+    }
+}
+
+/* DEVICE: TABLET (768px - 1024px)
+------------------------------------------*/
+@media screen and (min-width: 768px) {     /* Tablet+ Layout For About and Contact Page */
+    .story-section {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .social-links {
+        bottom: -3.125rem;
+    }
+    
+    .contact-hero h2 {
+        font-size: 3rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 2rem;
+    }
+
+    .form-group input, .form-group select, .form-group textarea {
+        width: 95%;
+    } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .nav a:not(.icon) {
+        display: block;
+    }
+
+    .nav a.icon {
+        display: none;
+    }
+
+    .nav a:hover {
+        color: #007BFF;
+    }
+
+    .highlight h3 {
+        font-size: 2rem;
+    }
+
+    .content h5 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 1.25rem;
+    }
+
+    footer p a {
+        font-size: 1.25rem;
+    }
+
+    .socials {
+        gap: 10rem;
+    }
+}
+
+/* DEVICE: LAPTOP (1024PX - 1440PX)
+------------------------------------------*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        background: url('../assets/Images/background/bodyBackground.jpg') no-repeat fixed center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .nav a:not(.icon) {
+        display: block;
+    }
+
+    .nav a.icon {
+        display: none;
+    }
+
+    .nav a:hover {
+        color: #007BFF;
+    }
+
+    .highlight h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        border-bottom: 0.125rem dotted #FFA200;
+    }
+
+    .content {
+        padding: 1.5rem;
+        text-align: left;
+    }
+
+    .content h2 {
+        font-size: 2rem;
+    }
+
+    .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .content h4 {
+        font-size: 1.4rem;
+    }
+
+    .content h5 {
+        font-size: 1.35rem;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+    }
+    
+    footer p, footer p a {
+        font-size: 1.2rem;
+    }
+
+    .socials {
+        gap: 12rem;
+    }
+}
+
+/* DEVICE: DESKTOPS (1440px+)
+------------------------------------------*/
+@media screen and (min-width: 1440px) {
+    body {
+        background: url('../assets/Images/background/bodyBackground.jpg') no-repeat fixed center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+        gap: 6rem;
+    }
+    
+    .nav a:not(.icon) {
+        display: block;
+    }
+
+    .nav a.icon {
+        display: none;
+    }
+
+    .nav a:hover {
+        color: #007BFF;
+    }
+
+    .highlight h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        border-bottom: 0.125rem dotted #FFA200;
+    }
+
+    .content {
+        padding: 1.5rem;
+        text-align: left;
+    }
+
+    .content h2 {
+        font-size: 2rem;
+    }
+
+    .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .content h4 {
+        font-size: 1.4rem;
+    }
+
+    .content h5 {
+        font-size: 1.35rem;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+    }
+    
+    footer p, footer p a {
+        font-size: 1.2rem;
+    }
+
+    .socials {
+        gap: 12rem;
+    }
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <!-- Final Lab
+        D'Jaine Brown
+        04/06/2025 -->
+    
+    <head>
+        <meta charset = "UTF-8">
+        <title> Portfolio | Apex Technologies </title>
+        <meta name = "description" content = "Portfolio page for Apex Technologies.">
+        <meta name = "author" content = "D'Jaine Brown">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/responsiveStyles.css">
+        <script src="js/javascript.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <a href = "index.html" title = "Home Page" class = "logoLink">
+                    <img src = "assets/Logos/logoPNG.png" alt = "Apex Technology Logo" class = "logo">
+            </a>
+            
+            <div class = "header-text">
+                <h1>Apex Technology</h1>
+                <h5 class = "tagline">"Where your ideas come to life!"</h5>
+            </div>
+                
+            <nav class = "nav" id = "navigation">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+                <a href="index.html" title="Home Page">Home</a>
+                <a href="services.html" title="Services Page">Services</a>
+                <a href="portfolio.html" title="Portfolio Page" class="active">Portfolio</a>
+                <a href="prices.html" title="Prices Page">Prices</a>
+                <a href="about.html" title="About Page">About</a>
+                <a href="contact.html" title="Contact Page">Contact</a>
+            </nav>
+        </header>
+
+        <main class = "portfolio-container">
+            <section class = "hero">
+                <h2> Our Work Speaks Volumes </h2>
+                <h3> Check out some of our recent projects below! </h3>
+            </section>
+
+            <div class = "portfolio-grid">
+                <div class = "portfolio-item">
+                    <div class = "portfolio-card">
+                        <img src = "assets/Images/websiteDevelopmentExamples/portfolioExample.png" alt = "Portfolio Website">
+                        <div class = "portfolio-overlay">
+                            <h3> Portfolio Website </h3>
+                            <p> Sample portfolio site created for customer to show off their work </p>
+                            <a href="#" class="view-btn"> View Website </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "portfolio-item">
+                    <div class = "portfolio-card">
+                        <img src = "assets/Images/graphicDesigningExamples/businesscardrj.png" alt="Business Card">
+                        <div class = "portfolio-overlay">
+                            <h3> Business Card </h3>
+                            <p> Business card for travel agent. </p>
+                            <a href = "#" class = "view-btn"> View Project </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "portfolio-item">
+                    <div class = "portfolio-card">
+                        <img src = "assets/Images/codingExamples/java.png" alt="Java Code">
+                        <div class = "portfolio-overlay">
+                            <h3> Program Tutor Application </h3>
+                            <p> Program Tutor Application made with Java </p>
+                            <a href = "#" class = "view-btn"> View Source Code </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "portfolio-item">
+                    <div class = "portfolio-card">
+                        <img src = "assets/Images/websiteDevelopmentExamples/websiteTemplate.png" alt="Business Page Template">
+                        <div class = "portfolio-overlay">
+                            <h3> Business Page Template </h3>
+                            <p> Custom business webpage template </p>
+                            <a href = "#" class = "view-btn"> View Template </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "portfolio-item">
+                    <div class = "portfolio-card">
+                        <img src = "assets/Images/graphicDesigningExamples/cruise.png" alt="Cruise Flyer">
+                        <div class = "portfolio-overlay">
+                            <h3> Cruise Flyer </h3>
+                            <p> Cruise flyer for travel agency </p>
+                            <a href = "#" class = "view-btn"> View Image </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "portfolio-item">
+                    <div class = "portfolio-card">
+                        <img src = "assets/Images/codingExamples/python.png" alt="Guessing Game Application">
+                        <div class = "portfolio-overlay">
+                            <h3> Guessing Game Application </h3>
+                            <p> Guessing Game Application made with Python </p>
+                            <a href = "#" class = "view-btn"> View Source Code </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class = "portfolio-cta">
+                <h2> Ready to Start Your Project? </h2>
+                <p> Let's create something extraordinary together </p>
+                <div class = "cta-buttons">
+                    <a href = "contact.html" class = "cta-button"> Get a Free Quote </a>
+                    <a href = "tel:+19545551234" class = "cta-button outline">
+                        Call Us Now <i class = "fa fa-phone"></i>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Apex Technologies.</p>
+            <p>
+                <a href = "about.html" target = "_blank"> About Us </a> | 
+                <a href = "services.html" target = "_blank"> Services </a> | 
+                <a href = "contact.html" target = "_blank"> Contact Us </a>
+            </p>
+
+            <div class = "socials">
+                <a href = "https://www.facebook.com" target = "_blank">
+                    <img src = "assets/Icons/Facebook.png" alt = "Facebook Logo" class = "socialLogo">
+                </a>
+                <a href = "https://x.com/?lang=en" target = "_blank">
+                    <img src = "assets/Icons/Twitter.png" alt = "Twitter Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.instagram.com" target = "_blank">
+                    <img src = "assets/Icons/Instagram.svg" alt = "Instagram Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.linkedin.com" target = "_blank">
+                    <img src = "assets/Icons/LinkedIn.png" alt = "LinkedIn Logo" class = "socialLogo">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

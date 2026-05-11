@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang = "en-us">
+
+    <!-- Final Lab
+        D'Jaine Brown
+        04/06/2025 -->
+    
+    <head>
+        <meta charset = "UTF-8">
+        <title> Contact | Apex Technologies</title>
+        <meta name = "description" content = "Contact page for Apex Technologies.">
+        <meta name = "author" content = "D'Jaine Brown">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/responsiveStyles.css">
+        <script src="js/javascript.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <a href = "index.html" title = "Home Page" class = "logoLink">
+                    <img src = "assets/Logos/logoPNG.png" alt = "Apex Technology Logo" class = "logo">
+            </a>
+            
+            <div class = "header-text">
+                <h1>Apex Technology</h1>
+                <h5 class = "tagline">"Where your ideas come to life!"</h5>
+            </div>
+                
+            <nav class = "nav" id = "navigation">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+                <a href="index.html" title="Home Page">Home</a>
+                <a href="services.html" title="Services Page">Services</a>
+                <a href="portfolio.html" title="Portfolio Page">Portfolio</a>
+                <a href="prices.html" title="Prices Page">Prices</a>
+                <a href="about.html" title="About Page">About</a>
+                <a href="contact.html" title="Contact Page" class="active">Contact</a>
+            </nav>
+        </header>
+
+        <main class = "contact-container">
+            <section class = "hero">
+                <h2>Let's Build Something Amazing</h2>
+                <h3>You have questions, we have answers. Reach out today!</h3>
+            </section>
+    
+            <div class = "contact-grid">
+                <form method = "post" class = "contact-form" id = "contactForm" autocomplete = "on">
+                    <h2>Send Us a Message</h2>
+                    
+                    <div class = "form-group">
+                        <label for = "name" class = "required">Full Name</label>
+                        <input type = "text" id = "name" name = "name" placeholder = "John Doe" autocomplete="on" required>
+                    </div>
+    
+                    <div class = "form-group">
+                        <label for="email" class = "required">Email</label>
+                        <input type="email" id="email" name="email" placeholder = "name@provider.domain" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" autocomplete="on" required>
+                    </div>
+    
+                    <div class = "form-group">
+                        <label for="service">Service Needed</label>
+                        <select id="service" name="service">
+                            <option value="instruction">Select a service</option>
+                            <option value="web-dev">Website Development</option>
+                            <option value="graphic-design">Graphic Design</option>
+                            <option value="code-creation">Code Creation</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="message" class = "required">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="I would like to contact you concerning a logo... (500 characters maximum)" maxlength="500" required></textarea>
+                    </div>
+    
+                    <button type="submit" class="send-button">Send Message</button>
+                </form>
+    
+                <div class="contact-info">
+                    <h2>Other Ways to Connect</h2>
+
+                    <div class="info-card">
+                        <i class="fa fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <a href="mailto:apexservice@gmail.com?Subject=Service%20Query">apexservice@gmail.com</a>
+                    </div>
+    
+                    <div class="info-card">
+                        <i class = "fa fa-phone"></i>
+                        <h3> Call Us </h3>
+                        <a href = "tel:+19545551234">+1 (954) 555-1234</a>
+                    </div>
+    
+                    <div class="info-card">
+                        <i class="fa fa-map-marker"></i>
+                        <h3>Visit Us</h3>
+                        <a href = "https://maps.app.goo.gl/bUT8ohtWSKZnEPi47" target= "_blank">
+                            123 Tech Boulevard<br>
+                            Computer, FL 33314
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Apex Technologies.</p>
+            <p>
+                <a href = "about.html" target = "_blank"> About Us </a> | 
+                <a href = "services.html" target = "_blank"> Services </a> | 
+                <a href = "contact.html" target = "_blank"> Contact Us </a>
+            </p>
+
+            <div class = "socials">
+                <a href = "https://www.facebook.com" target = "_blank">
+                    <img src = "assets/Icons/Facebook.png" alt = "Facebook Logo" class = "socialLogo">
+                </a>
+                <a href = "https://x.com/?lang=en" target = "_blank">
+                    <img src = "assets/Icons/Twitter.png" alt = "Twitter Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.instagram.com" target = "_blank">
+                    <img src = "assets/Icons/Instagram.svg" alt = "Instagram Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.linkedin.com" target = "_blank">
+                    <img src = "assets/Icons/LinkedIn.png" alt = "LinkedIn Logo" class = "socialLogo">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <!-- Final Lab
+        D'Jaine Brown
+        04/06/2025 -->
+    
+    <head>
+        <meta charset = "UTF-8">
+        <title> Apex Technologies </title>
+        <meta name = "description" content = "Landing page for Apex Technologies.">
+        <meta name = "author" content = "D'Jaine Brown">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/responsiveStyles.css">
+        <script src="js/javascript.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <a href = "index.html" title = "Home Page" class = "logoLink">
+                    <img src = "assets/Logos/logoPNG.png" alt = "Apex Technology Logo" class = "logo">
+            </a>
+            
+            <div class = "header-text">
+                <h1>Apex Technology</h1>
+                <h5 class = "tagline">"Where your ideas come to life!"</h5>
+            </div>
+                
+            <nav class = "nav" id = "navigation">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+                <a href="index.html" title="Home Page" class="active">Home</a>
+                <a href="services.html" title="Services Page">Services</a>
+                <a href="portfolio.html" title="Portfolio Page">Portfolio</a>
+                <a href="prices.html" title="Prices Page">Prices</a>
+                <a href="about.html" title="About Page">About</a>
+                <a href="contact.html" title="Contact Page">Contact</a>
+            </nav>
+        </header>   
+        <main>
+            <section class = "hero">
+                <h2> Start your journey with us today! </h2>
+                <h3>Check out our tiers lists</h3>
+                <a href="prices.html" class="getStarted">Get Started</a>
+            </section>
+
+            <section class = "highlight">
+                <h3>Highlights</h3>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="assets/Images/codingExamples/codeExample.jpg" style="width:100%" alt="Code Example">
+                    </div>
+  
+                    <div class="mySlides fade">
+                        <img src="assets/Images/graphicDesigningExamples/olccPoster.jpg" style="width:100%" alt="Graphic Design Example">
+                    </div>
+  
+                    <div class="mySlides fade">
+                        <img src="assets/Images/websiteDevelopmentExamples/webpageExample.png" style="width:100%" alt="Web Development Example">
+                    </div>
+  
+                    <a class="prev" onclick="plusSlides(-1)" aria-label="Previous slide">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)" aria-label="Next slide">&#10095;</a>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </section>
+
+            <section class = "content">
+                <h2> Welcome to Apex Technologies! </h2>
+                <p> We are dedicated to providing top-notch technology solutions for your business needs. </p>
+                <p>
+                    At Apex Technology, we specialize in crafting stunning websites, bold brand identities, and custom-coded solutions tailored to your business goals. Whether you're launching a startup, rebranding your business, or just need a reliable tech partner, we're here to turn your ideas into reality. Our <a href = "about.html" target = "_blank"> team </a> combines creative design with powerful development to ensure your digital presence not only looks amazing — but performs exceptionally.
+
+                    We're not just about delivering projects; we're about building long-term relationships. Our clients trust us because we listen, we collaborate, and we consistently deliver <a href = "portfolio.html" target = "_blank"> results </a>. If you've worked with us and loved the experience, spread the word! Great work deserves to be shared — and there's no better compliment than a recommendation to your friends, family, or fellow entrepreneurs. Even if it's just a <a href = "https://www.quora.com" target = "_blank" class = "smallText"> small contribution or review.</a>
+                </p>
+                <hr>
+                <h2> Not quite convinced? </h2>
+                <h3> Need to know more? </h3>
+                <h4> Here are a couple reasons why you should work with us: </h4>
+                
+                <h5><strong> Custom Solutions: </strong></h5>
+                <p>Every website, design, and line of code is built around your goals, your brand, and your audience.</p>
+                
+                <h5><strong> Full-Service Guarantee: </strong></h5>
+                <p>We promise support from idea to execution.</p>
+
+                <h5><strong> Reliable Communication: </strong></h5>
+                <p>We'll collaborate closely with you throughout the entire process, keeping everything transparent and on track.</p>
+
+                <h5><strong> Scalable Solutions: </strong></h5>
+                <p>Whether you're a startup, a small business, or scaling fast, our work grows with you.</p>
+
+                <h5><strong> Proven Track Record: </strong></h5>
+                <p>Our portfolio speaks for itself. We've helped countless businesses achieve their goals and we will help you too.</p>
+                
+                <h5><strong> Passionate Team: </strong></h5>
+                <p>Our team is made up of tech enthusiasts who love what they do.</p>
+                
+                <h5><strong> Affordable Pricing: </strong></h5>
+                <p>We believe in fair, transparent pricing and we offer competitive rates without compromising on quality.</p>
+                
+                <h5><strong> Ongoing Support: </strong></h5>
+                <p>Our relationship doesn't end after the project is delivered. We're here for you long-term.</p>    
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Apex Technologies.</p>
+            <p>
+                <a href = "about.html" target = "_blank"> About Us </a> | 
+                <a href = "services.html" target = "_blank"> Services </a> | 
+                <a href = "contact.html" target = "_blank"> Contact Us </a>
+            </p>
+
+            <div class = "socials">
+                <a href = "https://www.facebook.com" target = "_blank">
+                    <img src = "assets/Icons/Facebook.png" alt = "Facebook Logo" class = "socialLogo">
+                </a>
+                <a href = "https://x.com/?lang=en" target = "_blank">
+                    <img src = "assets/Icons/Twitter.png" alt = "Twitter Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.instagram.com" target = "_blank">
+                    <img src = "assets/Icons/Instagram.svg" alt = "Instagram Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.linkedin.com" target = "_blank">
+                    <img src = "assets/Icons/LinkedIn.png" alt = "LinkedIn Logo" class = "socialLogo">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <!-- Final Lab
+        D'Jaine Brown
+        04/06/2025 -->
+    
+    <head>
+        <meta charset = "UTF-8">
+        <title> Prices | Apex Technologies </title>
+        <meta name = "description" content = "Prices page for Apex Technologies.">
+        <meta name = "author" content = "D'Jaine Brown">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/responsiveStyles.css">
+        <script src="js/javascript.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <a href = "index.html" title = "Home Page" class = "logoLink">
+                    <img src = "assets/Logos/logoPNG.png" alt = "Apex Technology Logo" class = "logo">
+            </a>
+            
+            <div class = "header-text">
+                <h1>Apex Technology</h1>
+                <h5 class = "tagline">"Where your ideas come to life!"</h5>
+            </div>
+                
+            <nav class = "nav" id = "navigation">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+                <a href="index.html" title="Home Page">Home</a>
+                <a href="services.html" title="Services Page">Services</a>
+                <a href="portfolio.html" title="Portfolio Page">Portfolio</a>
+                <a href="prices.html" title="Prices Page" class="active">Prices</a>
+                <a href="about.html" title="About Page">About</a>
+                <a href="contact.html" title="Contact Page">Contact</a>
+            </nav>
+        </header>
+
+        <main class = "pricing-container">
+            <section class = "hero">
+                <h2> Simple, Transparent Pricing </h2>
+                <h3> Choose the perfect plan for your business needs </h3>
+
+                <div class = "toggle-container">
+                    <span> Monthly </span>
+                    <label class = "switch">
+                        <input type = "checkbox" id = "billingToggle">
+                        <span class = "slider round"></span>
+                    </label>
+                    <span> Annual <small>(Save 20%)</small> </span>
+                </div>
+            </section>
+    
+            <section class = "pricing-tiers">
+                <div class = "pricing-card">
+                    <div class = "plan-header">
+                        <h3> Starter </h3>
+                        <div class = "price">
+                            <span> $499/mo</span>
+                        </div>
+
+                        <p> Perfect for small businesses </p>
+                        <a href = "#" class="cta-button outline"> Get Started </a>
+                    </div>
+
+                    <ul class = "plan-features">
+                        <li><i class="fa fa-check"></i> 5-page custom website</li>
+                        <li><i class="fa fa-check"></i> Basic SEO setup</li>
+                        <li><i class="fa fa-check"></i> 1 design revision</li>
+                        <li><i class="fa fa-check"></i> 99% uptime guarantee</li>
+                        <li><i class="fa fa-check"></i> Email support</li>
+                    </ul>
+                </div>
+    
+                <div class = "pricing-card featured">
+                    <div class = "popular-badge"> Most Popular </div>
+                    <div class = "plan-header">
+                        <h3> Professional </h3>
+                        <div class = "price">
+                            <span> $1,199/mo </span>
+                        </div>
+
+                        <p> For growing businesses </p>
+                        <a href = "#" class = "cta-button"> Get Started </a>
+                    </div>
+
+                    <ul class = "plan-features">
+                        <li><i class="fa fa-check"></i> 15-page custom website</li>
+                        <li><i class="fa fa-check"></i> Advanced SEO + analytics</li>
+                        <li><i class="fa fa-check"></i> 3 design revisions</li>
+                        <li><i class="fa fa-check"></i> eCommerce functionality</li>
+                        <li><i class="fa fa-check"></i> Priority support</li>
+                        <li><i class="fa fa-check"></i> Monthly maintenance</li>
+                    </ul>
+                </div>
+
+                <div class = "pricing-card">
+                    <div class = "plan-header">
+                        <h3> Enterprise </h3>
+                        <div class = "price">
+                            <span>$2,499/mo </span>
+                        </div>
+
+                        <p> Custom solutions for large-scale needs </p>
+                        <a href="#" class="cta-button outline"> Contact Sales </a>
+                    </div>
+
+                    <ul class = "plan-features">
+                        <li><i class="fa fa-check"></i> Unlimited pages</li>
+                        <li><i class="fa fa-check"></i> Dedicated project manager</li>
+                        <li><i class="fa fa-check"></i> Custom web applications</li>
+                        <li><i class="fa fa-check"></i> API integrations</li>
+                        <li><i class="fa fa-check"></i> 24/7 VIP support</li>
+                        <li><i class="fa fa-check"></i> Weekly performance reports</li>
+                        <li><i class="fa fa-check"></i> SLA with 99.99% uptime</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class = "faq-section">
+                <h2> Frequently Asked Questions </h2>
+                <div class = "faq-container">
+                    <div class = "faq-item">
+                        <button class = "faq-question">
+                            What payment methods do you accept?
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                        
+                        <div class = "faq-answer">
+                            <p>
+                                We accept all major credit cards (Visa, Mastercard, American Express), PayPal, and bank transfers. Annual plans can also be paid via invoice.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class = "faq-item">
+                        <button class = "faq-question">
+                            Can I upgrade or downgrade later?
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+
+                        <div class = "faq-answer">
+                            <p>
+                                Yes! You can change plans at any time. When upgrading, you'll receive a prorated credit for unused time on your current plan.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class = "faq-item">
+                        <button class = "faq-question">
+                            Do you offer custom plans?
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+
+                        <div class = "faq-answer">
+                            <p>
+                                Absolutely. Our Enterprise plan is fully customizable, but we can also create hybrid solutions for unique business needs.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class = "faq-item">
+                        <button class = "faq-question">
+                            Is there a money-back guarantee?
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+
+                        <div class = "faq-answer">
+                            <p>
+                                We offer a 30-day satisfaction guarantee for all new customers. If you're not happy, we'll refund your first payment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Apex Technologies.</p>
+            <p>
+                <a href = "about.html" target = "_blank"> About Us </a> | 
+                <a href = "services.html" target = "_blank"> Services </a> | 
+                <a href = "contact.html" target = "_blank"> Contact Us </a>
+            </p>
+
+            <div class = "socials">
+                <a href = "https://www.facebook.com" target = "_blank">
+                    <img src = "assets/Icons/Facebook.png" alt = "Facebook Logo" class = "socialLogo">
+                </a>
+                <a href = "https://x.com/?lang=en" target = "_blank">
+                    <img src = "assets/Icons/Twitter.png" alt = "Twitter Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.instagram.com" target = "_blank">
+                    <img src = "assets/Icons/Instagram.svg" alt = "Instagram Logo" class = "socialLogo">
+                </a>
+                <a href = "https://www.linkedin.com" target = "_blank">
+                    <img src = "assets/Icons/LinkedIn.png" alt = "LinkedIn Logo" class = "socialLogo">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
