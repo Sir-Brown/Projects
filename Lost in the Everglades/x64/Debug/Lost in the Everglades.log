@@ -1,5 +1,0 @@
-﻿  evergladesRPG.cpp
-C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Lost in the Everglades\evergladesRPG.cpp(345,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Lost in the Everglades\evergladesRPG.cpp(83): warning C4715: 'menu': not all control paths return a value
-C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Lost in the Everglades\evergladesRPG.cpp(253): warning C4715: 'movement': not all control paths return a value
-  Lost in the Everglades.vcxproj -> C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Lost in the Everglades\x64\Debug\Lost in the Everglades.exe
