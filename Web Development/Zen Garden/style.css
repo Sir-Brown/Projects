@@ -1,0 +1,289 @@
+/* ================================================
+   Zen Garden CSS
+   A calm, minimalist design inspired by nature.
+   ================================================ */
+
+   /*
+                  COLOR SCHEME
+================================================
+          OFFICE GREEN::         #377C07
+          NYANZA GREEN:          #D6F6DD
+          LIGHT GREEN:           #98FB98
+          LAVENDER BLUSH:        #FFF0FB
+          TEA ROSE (RED):        #FAC9CD
+          CHERRY BLOSSOM PINK:   #FFB7C5
+          INDIAN RED:            #D35D6E
+          MEDIUM SLATE BLUE:     #7970C1
+          PINK LAVENDER:         #E0B5E2
+================================================
+*/
+
+/*                  PAGE LAYOUT
+================================================*/
+/*     Import fonts from Google     */
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+/*     BODY STYLING     */
+body {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    font-size: 1.125rem;
+    color: #377C07;
+    background: url('assets/Images/Background/bambooBackground.jpg') no-repeat fixed center;
+    background-color: #D6F6DD;
+    background-size: cover;   
+}
+
+@keyframes falling {
+    0% { transform: translateY(-10vh); }
+    100% { transform: translateY(110vh); }
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/Images/Vectors/cherryBlossom/cherryOne.png');
+    background-size: 14.375rem;
+    opacity: 0.15;
+    z-index: 1;
+    animation: falling 20s linear infinite;
+    pointer-events: none;
+}
+
+/*     PAGE WRAPPER / MAIN CONTENT     */
+.page-wrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 18.75rem;
+    grid-template-areas:
+        "intro sidebar"
+        "main sidebar";
+    gap: 3rem;
+    background-image: linear-gradient(152deg, #fac9cd, #ffffffd9, #D6F6DD);
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+/*     SECTIONS     */
+.intro, .main.supporting {
+    background-color: #fff0fb;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.9rem rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.intro {
+    grid-area: intro;
+}
+
+.main.supporting {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    align-self: start;
+    background-color: #ffffffe6;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.9rem rgba(0, 0, 0, 0.1);
+}
+
+/*     HEADER     */
+header {
+    background:url('assets/Images/Sky/pinkSky.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 4rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 1.375rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/*     HEADINGS AND BODY TEXT     */
+h1, h2, h3 {
+    font-family: 'Sawarabi Mincho', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #D35D6E;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    border-bottom: 0.125rem solid #FFB7C5;
+    padding: 0.5rem 0 0 1rem;
+    margin-top: 1.5rem;
+    background: linear-gradient(90deg,#fff0fb  0%,#FFB7C5 50%,#D6F6DD 100%);
+    border-radius: 10px;
+}
+
+/*     LINKS     */
+a {
+    color: #D35D6E;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #7970C1;
+    text-decoration: underline;
+}
+
+.design-selection nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.design-selection nav li {   
+    padding: 0.5rem 0;
+    border-bottom: 0.6rem dotted #D6F6DD;
+}
+
+.design-selection nav li:last-child {
+    border-bottom: none;
+}
+
+/*     FOOTER     */
+footer {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+footer a {
+    margin: 0 0.625rem;
+    padding: 0.3rem 0.625rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+footer a:hover {
+    background-color: #5E8C6A;
+    color: white;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+/*                  RESPONSIVE DESIGN
+================================================*/
+/*     SMALL TO LARGE PHONES     */
+@media (max-width: 600px) {
+    body {
+        font-size: 1rem;
+        background-attachment: scroll;
+    }
+
+    body::before {
+        background-size: 8rem;
+        animation-duration: 30s;
+    }
+
+    .page-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "intro"
+            "main"
+            "sidebar";
+        gap: 1.5rem;
+        padding: 0.8rem;
+    }
+
+    header {
+        padding: 2rem 0;
+        border-radius: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        padding-left: 0.5rem;
+    }
+
+    .intro, .main.supporting, .sidebar {
+        padding: 1rem;
+    }   
+}
+
+/*     AVERAGE TABLET     */
+@media (min-width: 601px) and (max-width: 992px) {
+    body::before {
+        background-size: 10rem;
+        animation-duration: 25s;
+    }
+
+    .page-wrapper {
+        grid-template-columns: minmax(0, 1fr) 14rem;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    header {
+        padding: 3rem 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .sidebar {
+        padding: 1.2rem;
+    } 
+}
+
+/*     LAPTOPS     */
+@media (min-width: 993px) and (max-width: 1440px) {
+    .page-wrapper {
+        max-width: 90%;
+    }
+
+    header {
+        padding: 3.5rem 0;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 1rem;
+        max-height: 95vh;
+        overflow-y: auto;
+    }
+}
+
+/*     DESKTOPS     */
+@media (min-width: 1441px) {
+    .page-wrapper {
+        max-width: 85rem;
+    }
+
+    body {
+        font-size: 1.25rem;
+    }
+}
