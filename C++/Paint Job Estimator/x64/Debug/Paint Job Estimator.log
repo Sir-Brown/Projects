@@ -1,0 +1,5 @@
+﻿  paintEstimator.cpp
+C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Paint Job Estimator\paintEstimator.cpp(174,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Paint Job Estimator\paintEstimator.cpp(68): warning C4715: 'getPricePerGallon': not all control paths return a value
+C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Paint Job Estimator\paintEstimator.cpp(93): warning C4715: 'getRooms': not all control paths return a value
+  Paint Job Estimator.vcxproj -> C:\Users\djain\Documents\BrownSchoolFiles\Year 1\Fall 2023\COP1334C Intro to C++\Projects\Paint Job Estimator\x64\Debug\Paint Job Estimator.exe
