@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+	<!-- Final Project Part 4
+		D'Jaine Brown
+		11/28/2024 -->
+		
+	<head>
+		<meta charset = "UTF-8">
+		<title> ePortfolio | Contact Page </title>
+		<meta name = "Description" content = "Contact page for D'Jaine Brown's ePortfolio.">
+		<meta name = "Author" content = "D'Jaine Brown">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/menu.js"></script>
+		<link rel="stylesheet" type ="text/css" href="stylesheets/mobile.css">
+		<link rel="stylesheet" type ="text/css" href="stylesheets/mainstyle.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<header>
+			<h1> D'JAINE <strong> BROWN </strong> </h1>
+			<h3> Software Developer + Web Author + Graphic Designer</h3>
+		</header>
+		
+		<div class = "nav" id = "navigation">		
+			<nav> <!-- nav menu -->
+				<img src = "../BrownfinalProject/assets/logo.png" alt = "Logo">
+				<a href = "HomePage.html" title = "Home Page"> Portfolio </a>
+				<a href = "ServicesPage.html" title = "Services"> Services </a>
+				<a href = "AboutPage.html" title = "About"> About </a>
+				<a href = "#ContactPage.html" title = "Contact" class = "active"> Contact </a>
+				<a href = "ResumePage.html" title = "Resume"> Resume </a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+			</nav>
+		</div>
+		
+		<main class = "contactMain">
+			<section class = "contactInfo">
+				<h2> Let's get in touch </h2>
+				
+				<div class = "contactItem">
+					<a href="mailto:browd426@mail.broward.edu?Subject=Club%20Information" target="_blank"> <img src="assets/mail.png" alt="Email"> </a>
+					<a href="mailto:browd426@mail.broward.edu?Subject=Club%20Information" target="_blank" class = "link"> Email </a>
+				</div>
+				
+				<div class = "contactItem">
+					<a href = "tel:+19547073178" target="_blank"> <img src="assets/phone.png" alt="Telephone"> </a>
+					<a href = "tel:+19547073178" class = "link"> Telephone </a>
+				</div>
+				
+				<div class = "contactItem">
+					<a href="https://maps.app.goo.gl/bUT8ohtWSKZnEPi47" target= "_blank"> <img src="assets/location.png" alt="Local"> </a>
+					<a href = "https://maps.app.goo.gl/bUT8ohtWSKZnEPi47" target= "_blank" class = "link"> 123 user-browser lane, internet street, URL 4567 </a>
+				</div>
+				
+			</section>
+				
+			<div class = "contact-wrapper">	<!-- Houses the form -->
+				<form action = "/action_page.php" method = "post" autocomplete = "on">
+					<div class = "name">
+						<!-- Text field -->
+						<p>
+							<label for = "firstN" class = "required"> First name: </label>
+							<input type = "text" name = "firstName" id = "firstN" placeholder = "Leon" required>
+						</p>
+
+						<!-- Text field -->
+						<p>
+							<label for = "LastN" class = "required"> Last name: </label>
+							<input type = "text" name = "lastName" id = "LastN" placeholder = "Kennedy" required>
+						</p>
+						
+					</div>
+							
+					<!-- Email field -->
+					<p>
+						<label for = "email" class = "required"> Email: </label>
+						<input type = "email" name = "email" id = "email" placeholder = "name@provider.domain" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title = "Must be in the format email@service.domain" required>	
+					</p>		
+						
+					<!-- Text Area -->
+					<p> <label for="message" class = "required"> Message: </label> </p>
+					<p> <textarea name="message" placeholder="I would like to contact you concerning an open... (280 characters maximum)" maxlength="280" rows="4" cols="63" id="message" required></textarea> </p>
+
+					<button type="submit"> Send </button>	
+				</form>
+			</div>
+		</main>
+		
+		<footer> <!-- Outro, Contact Us, and Copyright -->
+			<div class = "footer-content">
+				<br>
+				<h3> Thank you for checking me out! </h3>
+				<p> While you're here, check out some of my other pages like my<a href = "AboutPage.html" title = "About Page">About Page</a>or contact me for further inquiries.</p>
+				
+				<a href = "mailto:browd426@mail.broward.edu?Subject=Club%20Information" target = "_blank"> Email </a> <!-- mail to -->
+				<a href = "tel:+19547073178"> Telephone </a> <!-- phone link -->
+				<a href="sms:+19547073178"> SMS </a>
+				<br> <br>
+			</div>
+			<aside>				
+				<p> Follow Me on Social Media too while you're at it &#128513;</p>
+				<ul class = "socials">
+					<li>
+						<a href="https://www.instagram.com/sir_brown.lc/" target="_blank"> <img src="assets/Instagram.svg" alt="My Instagram"> </a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/djainebrown" target="_blank"> <img src="assets/LinkedIn.png" alt="My LinkedIn profile"> </a>
+					</li>
+					<li>
+						<a href="https://x.com/sir_brownlc" target="_blank"> <img src="assets/Twitter.png" alt="My Twitter profile"> </a>
+					</li>
+					
+					<li>
+						<a href="https://www.youtube.com/@DJaineBrown" target="_blank"> <img src="assets/Youtube.png" alt="Youtube"> </a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/djaine.brown" target="_blank"> <img src="assets/Facebook.png" alt="Facebook"> </a>
+					</li>
+					<li>
+						<a href="https://discordapp.com/users/695460501680947211" target="_blank"> <img src="assets/Discord.svg" alt="Discord"> </a>
+					</li>
+				</ul>
+			</aside>
+			<small> &copy; copyright 2024 D'Jaine Brown</small>
+		</footer>
+	</body>
+</html>
