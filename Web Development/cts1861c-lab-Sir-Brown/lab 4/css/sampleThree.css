@@ -1,0 +1,109 @@
+/*----------USES ANALOGOUS (AUTO) COLOR SCHEME----------*/
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background-color: #002BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0.45rem 1.25rem;
+}
+
+.logo {
+    margin: -1.25rem;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.9rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    color: #00CCFF;
+}
+
+nav a.active {
+    color: #00FBFF;
+}
+
+/* Section: Hero */
+.hero {
+    background: linear-gradient(135deg, #007BFF, #00CCFF);
+    color: white;
+    text-align: center;
+    padding: 1.875rem 1.25rem;
+}
+
+.getStarted {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.9375rem;
+}
+
+.getStarted:hover {
+    background-color: #00CCFF;
+}
+
+/* Section: preContent */
+.preContent {
+    background-color: #002878;
+    color: #ffffff;
+    padding: 1.25rem 2.25rem;
+}
+
+/* Section: mainContent */
+.mainContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Section: Content */
+.content {
+    padding: 1.25rem 2.25rem;
+}
+
+/* Section: Highlight */
+.highlight {
+    background-color: #55A7FF;
+    padding: 1.875rem 2.25rem;
+    text-align: center;
+    color: #002BFF;
+}
+
+.highlight ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 3.12rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2700FF;
+    color: white;
+    text-align: center;
+    padding: 0.9375rem;
+}

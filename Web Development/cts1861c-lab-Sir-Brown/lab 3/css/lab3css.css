@@ -1,0 +1,213 @@
+/*--------------------GENERAL-------STYLING--------------------*/
+/* Entire Page */
+* {
+    margin: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+header hr {
+    border: 0.0625rem solid #bdc3c7;
+    margin: 0.625rem auto;
+    width: 60%;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0099ff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+nav a.active {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+/* Main */
+main {
+    max-width: 62.5rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #002345;
+    margin-bottom: 1.25rem;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #007BFF;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+article h2 {
+    font-size: 1.5rem;
+    color: #004085;
+    margin-top: 0.9rem;
+    margin-bottom: 0.625rem;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    color: #004085;
+    margin-top: 0.9rem;
+    margin-bottom: 0.625rem;
+}
+
+main p {
+    margin-bottom: 0.9rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+    width: 50%;
+    margin: 10px auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+/*--------------------PAGE-------SPECIFIC--------------------*/
+/* Psychology Principles Page */
+main ul, main ol {
+    margin-left: 1.25rem;
+    margin-bottom: 0.9rem;
+}
+
+main ol {
+    counter-reset: main-counter;
+    padding-left: 2rem;
+}
+
+main ol li {
+    counter-increment: main-counter;
+    margin-bottom: 0.625rem;
+}
+
+main ol li::before {
+    content: counters(item-number,'.') ' ';
+    color: rgb(2, 1, 87);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+main ul {
+    list-style-type: disc;
+}
+
+main ul li::before {
+    content: none;
+}
+
+.newlist {
+    counter-reset: item-number 0;
+    list-style: none;
+}
+.newlist li {
+    counter-increment: item-number 1;
+}
+/* User Documents Page */
+.personaIMGs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.personaIMGs h2 {
+    grid-column: 1 / -1;
+}
+
+.personaIMGs img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #082b4f;
+}
+
+table th, table td {
+    padding: 0.625rem;
+    border: 0.0625rem solid #3498db;
+    text-align: left;
+}
+
+table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

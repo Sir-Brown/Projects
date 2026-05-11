@@ -1,0 +1,152 @@
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h3 {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+header hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+    width: 50%;
+    margin: 15px auto;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Pane */
+.nav {
+	text-align: center;
+    width: 100%;
+	background-color: #16182f;
+}
+
+div.nav a {
+	display: inline-block;
+    padding: 17px 95px;
+}
+
+a {
+	color: #007BFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.active {
+	color: #fdfeff;
+}
+
+a:hover {
+	color: #7502f1;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+h4 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ol, ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+    width: 50%;
+    margin: 10px auto;
+}
+
+/*---------------PAGE---SPECIFIC---DESIGNS-----------------------*/
+/* Agile Plan Page*/
+.aHeadone {
+    text-align: center;
+    color: #007BFF;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+.aHeadtwo {
+    color: #007BFF;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
+/* Specification Page */
+.sHeadfour {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
