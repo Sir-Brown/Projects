@@ -1,0 +1,4 @@
+﻿  labAssignment.cpp
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\1. Fall 2024\Intermediate C++\Code\labAssignmentUnit1\labAssignment.cpp(65,30): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\1. Fall 2024\Intermediate C++\Code\labAssignmentUnit1\labAssignment.cpp(69,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  labAssignmentUnit1.vcxproj -> C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\1. Fall 2024\Intermediate C++\Code\labAssignmentUnit1\x64\Debug\labAssignmentUnit1.exe
