@@ -1,0 +1,11 @@
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\bin\Debug\Email Address Book.exe.config
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\bin\Debug\Email Address Book.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\bin\Debug\Email Address Book.pdb
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email Address Book.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email_Address_Book.EmailAddressBookApp.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email_Address_Book.Properties.Resources.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email Address Book.csproj.GenerateResource.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email Address Book.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email Address Book.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email Address Book.pdb
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Email Address Book\obj\Debug\Email_Address_Book.PersonInformation.resources

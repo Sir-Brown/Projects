@@ -1,0 +1,10 @@
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\bin\Debug\Word Frequency Application.exe.config
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\bin\Debug\Word Frequency Application.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\bin\Debug\Word Frequency Application.pdb
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\obj\Debug\Word Frequency Application.csproj.AssemblyReference.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\obj\Debug\Word_Frequency_Application.WordFreuencyApp.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\obj\Debug\Word_Frequency_Application.Properties.Resources.resources
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\obj\Debug\Word Frequency Application.csproj.GenerateResource.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\obj\Debug\Word Frequency Application.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\obj\Debug\Word Frequency Application.exe
+C:\Users\VICTUS\Documents\BrownSchoolFiles\Year 2\3. Spring 2025\COP2360C C# PROG ENHANCED 746448\Code\Word Frequency Application\obj\Debug\Word Frequency Application.pdb
