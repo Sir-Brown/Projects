@@ -1,0 +1,356 @@
+/*
+COLOR PALETTE
+
+Engineering Orange		#c7251a
+School Bus Yellow		#f1d302
+Sage green				#329F5B
+French blue				#0075c4
+Light gray    			#d3d4d6
+Black					#262626
+*/
+
+/* GLOBAL STYLES 
+-------------------------------------------------------------*/
+/* NAV BAR
+------------------------------------------*/
+.nav {
+	clear: both;
+	width: 100%;
+	background-color: #262626;
+	overflow: hidden;
+}
+
+div.nav a {
+	display: inline-block;
+	justify-content: center;
+    list-style-type: disc;
+    padding: 17px 40px;
+}
+	
+.nav .icon {
+		display: none;
+}
+
+/* LINKS
+------------------------------------------*/
+a {
+	color: #c7251a;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.active {
+	color: #0075c4;
+}
+
+a:hover {
+	color: #f1d302;
+}
+
+/* HEADER & BODY
+------------------------------------------*/
+.header {
+	padding: 10px 0;
+	text-align: center;
+}
+
+body {
+	background-image: url(../assets/comicBooks.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	background-color: #f1d302;
+	
+	/* Font */
+	font-family: "Libre Baskerville", Papyrus, fantasy;
+}
+
+/* HEADINGS && TEXT
+------------------------------------------*/
+h1, h2, h3 {
+	font-family: "Audiowide", sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #c7251a;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.875em;
+  color: #0075c4;
+}
+
+h4 {
+	color: #329F5B;
+}
+
+/* FOOTER
+------------------------------------------*/
+footer {
+	clear: both;
+    background-color: #262626;
+    color: #d3d4d6;
+	padding: 0 20px;
+	display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+	margin-right: 20px;
+}
+
+footer aside {
+	width: 27%;
+	padding: 10px;
+}
+
+footer .footer-content {
+    width: 50%;
+}
+
+.socials {
+	display: flex;
+    justify-content: left;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.socials li {
+    display: inline-block;
+	margin-right: 65px;
+	margin-bottom: 10px;
+}
+
+.socials img {
+    height: 25px;
+	width: 25px;
+}
+
+/* HOME PAGE
+-------------------------------------------------------------*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.homeMain {
+	background-color: #d3d4d6;
+	width: 70%;
+	float: left;
+	padding: 10.3px;
+	vertical-align: bottom;
+}
+
+.Updates {
+	width: 27%;
+	float: right;
+	padding: 10px;
+	border: 3px solid #c7251a;
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+aside.Updates h2, aside.Updates p, aside.Updates img {
+	margin-left: 50px;
+}
+
+aside.Updates p {
+	color: #f1d302;
+	font-style: italic;
+}
+
+.sideImage {
+	width: 75%;
+	height: auto;
+	display: block;
+}
+
+aside h2 {
+  font-size: 2.5em;
+  color: #c7251a;
+  margin-top: 5px;
+}
+
+header h4 {
+	margin-top: -35px;
+	padding: 10px 20px;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+/* CALENDAR PAGE
+-------------------------------------------------------------*/
+.calendarmain {
+	background-color: #d3d4d6;
+	padding: 20px 20px;
+}
+
+table, th, td {
+	font-size: 18px;
+	text-align: center;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	height: 55px;
+	padding: 5px;
+}
+
+table caption {
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+			
+table {
+	width: 60%;
+	margin: auto;
+	background-image: linear-gradient(red, yellow);
+	table-layout: auto;
+}
+
+table a {
+	color: #0075c4;
+}
+
+table a:hover {
+	color: #00bfb2;
+}
+			
+.panel{
+	width:100%;
+	height:auto;
+}
+
+/* ABOUT US PAGE
+-------------------------------------------------------------*/
+.aboutmain {
+	background-color: #d3d4d6;
+	padding: 20px 20px;
+}
+
+.headerthree {
+	color: #c7251a;
+}
+
+/* SIGN UP PAGE
+-------------------------------------------------------------*/
+.signupMain {
+	background-color: #d3d4d6;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.content-wrapper {
+	background: white;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.signupMain h2, .signupMain h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.signupMain h4 {
+	font-family: "Audiowide", sans-serif;
+	color: #c7251a;
+	font-size: 1.3em;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.signupMain h2 {
+	color: #c7251a;
+}
+
+.signupMain h3 {
+	color: #0075c4;
+}
+
+.signupMain p {
+    text-align: justify;
+	line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.required:after {
+	content: " *";
+	font-weight: bold;
+	color: #c7251a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid #329F5B;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0075c4;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select, button {
+	font-family: inherit;
+}
+
+input, textarea, select {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d3d4d6;
+    border-radius: 5px;
+}
+
+button[type="submit"], button[type="reset"] {
+    margin: auto;
+	width: 48%;
+    padding: 10px;
+    background-color: #c7251a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+	font-size: 1em;
+    cursor: pointer;
+}
+
+button[type="submit"] {		/*Overrides previous margin element to reduce space between fieldset and button*/
+	margin-top: -20px;
+}
+
+button[type="reset"] {		/*Overrides previous margin element to increase space between submit and reset buttons*/
+	margin-top: 15px;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #0075c4;
+}

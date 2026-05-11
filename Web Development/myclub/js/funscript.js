@@ -1,0 +1,1 @@
+alert("Great, we love " + prompt("What is your major?", "") + " majors in this club!");

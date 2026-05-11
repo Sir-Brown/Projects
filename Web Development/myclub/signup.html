@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+	<!-- Assignment 5
+		D'Jaine Brown
+		11/15/2024 -->
+		
+	<head>
+		<meta charset = "UTF-8">
+		<title> The Comic Geeks | Sign Up</title>
+		<meta name = "Description" content = "Sign in page for a fictional club called 'The Comic Geeks'.">
+		<meta name = "Author" content = "D'Jaine Brown">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville">		
+		<link rel="stylesheet" type ="text/css" href="stylesheets/mainstyle.css">
+		<script src="js/funnyscript.js"></script>
+		<link rel="stylesheet" type ="text/css" href="stylesheets/mobile.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<div class = "header">
+			<header>
+				<h1> Comic Geeks </h1>
+				<h4> A Club for comic enthusiasts </h4>
+			</header>
+		</div>
+		
+		<div class = "nav" id = "navigation">		
+			<nav> <!-- nav menu -->
+				<a href = "mainpage.html" title = "Home Page"> Home </a>
+				<a href = "calendarpage.html" title = "Calendar"> Calendar </a>
+				<a href = "aboutus.html" title = "About Page"> About Us </a>
+				<a href = "#signup.html" title = "Sign up or Login" class = "active"> Sign Up </a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+			</nav>
+		</div>
+		
+		<main class = "signupMain">		
+			<div class = "content-wrapper">
+				<h2> Welcome to Comic Geeks! </h2>	<!-- Welcome Message -->
+				<h3> Are you new? </h3>
+				<p>
+					We’re <strong> thrilled </strong> you’re here! By creating an account, you’re about to join a vibrant community of comic lovers where you'll get to dive into exciting discussions, explore new comics, and connect with others who share your passion.
+					We’re here to help you discover, create, and geek out with fellow fans of graphic novels, manga, and <em> everything </em> in between.
+					Get ready to join reading sessions, participate in creative challenges, and access exclusive member events. Let’s get started! Your journey into the world of comics awaits!
+					<br> <em> Note: Please fill in <strong> all </strong> areas. </em>
+				</p>
+		
+				<section>	<!-- Houses the form -->
+					<h4> Sign Up </h4>
+					<form action = "/action_page.php" method = "post" autocomplete = "on">
+						<fieldset name = "personalInfo">
+							<legend> Personal Information: </legend>	<!-- Mostly text boxes wth an email and password type-->
+							<p>
+								<label for = "firstN" class = "required"> First name: </label>
+								<input type = "text" name = "firstName" id = "firstN" autofocus required>
+							</p>
+									
+							<p>
+								<label for = "LastN"> Last name: </label>
+								<input type = "text" name = "lastName" id = "LastN">
+							</p>
+								
+							<p>
+								<label for = "email" class = "required"> Email: </label>
+								<input type = "email" name = "email" id = "email" placeholder = "name@provider.domain" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title = "Must be in the format email@service.domain" required>	
+							</p>		
+								
+							<p>
+								<label for = "pswd" class = "required"> Password: (Must have: 1 number, upper and lowercase, 8 or more characters)</label>
+								<input type = "password" name = "pswd" id = "pswd" placeholder = "Example: p422W0rD" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, an uppercase & lowercase letter, and at least 8 or more characters." required>
+							</p>
+						</fieldset>
+								
+						<fieldset name = "interests">
+							<legend> Interests: </legend>
+							<p>	<!-- Text Area -->
+								<label for="join" class = "required"> Why do you want to join?: </label>
+							</p>
+							<p>
+								<textarea name="reason" placeholder="I want to join because... (280 characters maximum)" maxlength="280" rows="3" cols="30" id="join" required></textarea>
+							</p>
+							<p>	<!--  Check box -->
+								What are your skills: <br>									
+								<label for = "skill1"> <input type = "checkbox" name = "skill1" id = "skill1" value = "WRITING"> Writing </label>
+								<label for = "skill2"> <input type = "checkbox" name = "skill2" id = "skill2" value = "DRAWING"> Drawing </label>
+								<label for = "skill3"> <input type = "checkbox" name = "skill3" id = "skill3" value = "COLORING"> Coloring </label>
+								<label for = "skill4"> <input type = "checkbox" name = "skill4" id = "skill4" value = "TRANSLATING"> Translating </label>
+								<label for = "skill5"> <input type = "checkbox" name = "skill5" id = "skill5" value = "ANIMATING"> Animating </label>
+								<label for = "skill6"> <input type = "checkbox" name = "skill6" id = "skill6" value = "OTHER"> Other </label>
+								<label for = "other"> <input type = "text" name = "other" id = "other"> </label>
+							</p>
+								
+							<p>	<!-- Dropdown list -->
+								<label for = "interest"> Which of the following are you most interested in: </label>
+								<select name = "interest" id = "interest">
+									<option value = "comics"> Comics </option>
+									<option value = "anime"> Anime </option>
+									<option value = "manga"> Manga </option>
+									<option value = "movies"> Movies </option>
+									<option value = "tvshows"> TV Shows </option>
+								</select>
+						</fieldset>
+								
+						<fieldset name = "other">
+							<legend> Other: </legend>
+							<p>	<!-- Telephone Input Type -->
+								<label for = "phone" class = "required"> Enter your phone number: </label>
+								<input type = "tel" name="phone" value="" id = "phone" placeholder = "xxx-xxx-xxxx" pattern = "[2-9]{3}-[0-9]{3}-[0-9]{4}" title = "Must be a valid phone number" required> <br>
+							</p>
+							
+							<p>	<!-- Radio buttons -->	
+								Would you like to receive messages with updates about the club:
+								<label for = "response1"> <input type="radio" name="response" value="YES" id = "response1"> Yes </label>
+								<label for = "response2"> <input type="radio" name="response" value="NO" id = "response2"> No </label> <br>
+							</p>
+						</fieldset>	
+							<br>
+							<button type="submit"> Sign Up </button>
+							<button type="reset"> Reset </button>	
+					</form>
+				</section>
+			</div>
+		</main>
+	
+		<footer> <!-- Outro, Contact Us, and Copyright -->
+			<div class = "footer-content">
+				<br>
+				<h3> <em> May the force be with you </em> &#128512; </h3>
+				<p> Contact us for further inquiries or check out our <a href = "aboutus.html" title = "About Page"> About Page </a> </p>
+				
+				<a href = "mailto:browd426@mail.broward.edu?Subject=Club%20Information" target = "_blank"> Email </a> <!-- mail to -->
+				<a href = "tel:+19547073178"> Telephone </a> <!-- phone link -->
+				<a href="sms:+19547073178"> SMS </a>
+				<br> <br>
+				<small> &copy; copyright 2023 D'Jaine Brown</small>
+			</div>
+			<aside>				
+				<p> Follow The Comic Geeks </p>
+				<ul class = "socials">
+					<li>
+						<a href="https://www.instagram.com/sir_brown.lc/" target="_blank"> <img src="assets/Instagram.svg" alt="My Instagram"> </a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/djainebrown" target="_blank"> <img src="assets/LinkedIn.png" alt="My LinkedIn profile"> </a>
+					</li>
+					<li>
+						<a href="https://x.com/sir_brownlc" target="_blank"> <img src="assets/Twitter.png" alt="My Twitter profile"> </a>
+					</li>
+				</ul>
+				
+				<ul class = "socials">
+					<li>
+						<a href="https://www.youtube.com/@DJaineBrown" target="_blank"> <img src="assets/Youtube.png" alt="Youtube"> </a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/djaine.brown" target="_blank"> <img src="assets/Facebook.png" alt="Facebook"> </a>
+					</li>
+					<li>
+						<a href="https://discordapp.com/users/695460501680947211" target="_blank"> <img src="assets/Discord.svg" alt="Discord"> </a>
+					</li>
+				</ul>
+			</aside>
+		</footer>
+	</body>
+
+</html>
